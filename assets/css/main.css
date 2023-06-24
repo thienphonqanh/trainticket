@@ -713,6 +713,7 @@ a {
   border: 2px solid var(--border-color);
   width: 250px;
   height: auto;
+  border-radius: var(--border-radius-small);
 }
 
 .time {
