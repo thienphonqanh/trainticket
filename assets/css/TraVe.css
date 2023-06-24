@@ -1,0 +1,240 @@
+ul {
+  list-style: none;
+}
+
+.wrap {
+  width:100%;
+  margin:0 auto;
+}
+
+
+.footer {
+  height:230px;
+  background-color:#fff;
+}
+@media screen and (max-width: 992px) {
+  
+  .sidebar {
+      display: none;
+  }
+  .sidebar1 {
+      display: none;
+  }
+  
+}
+
+
+.box {
+width: 95%;
+margin: 0 auto;
+display: flex;
+position: relative;
+}
+
+.box .container {
+width: 70%;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0px 12px;
+}
+
+.sidebar {
+width: 15%;
+}
+
+.sidebar1 {
+width: 15%;
+}
+
+.form {
+width: 100%;
+}
+
+.user {
+width: 95%;
+margin: 0 auto;
+}
+
+.container .title h4 {
+margin-bottom: 8px;
+background-color: #0091d4;
+color: #fff;
+display: inline-block;
+padding: 8px 12px;
+}
+.container .title p {
+  background-color: #d9edf7;
+  padding: 15px;
+  font-size: 18px;
+  color: #3a87ad;
+}
+.container .title h5 {
+margin-left: 12px;
+font-size: 18px;
+margin-bottom: 20px;
+margin-top: 15px;
+}
+
+.box__input-box{
+display: flex;
+justify-content: flex-end;
+}
+
+.box__input-box:last-child {
+margin-top: 20px;
+}
+
+.container .user .input-box {
+display: flex;
+width: 85%;
+}
+
+.details {
+min-width: 100px;
+transform: translateY(30%);
+}
+
+.container .user .button {
+width: 80%;
+}
+
+.user .input-box input {
+height: 38px;
+width: 100%;
+border-radius: 5px;
+}
+.input-box span {
+  margin: 5px 10px 5px 0;
+}
+
+.input-box input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 6px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.container .button .button1 {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.container .button .link {
+  cursor: pointer;
+}
+.container .button .button1:hover {
+  background-color: royalblue;
+}
+
+.note {
+width: 100%;
+margin-top: 40px; 
+margin-bottom: 30px;
+background-color: #d9edf7;
+padding: 32px 20px;
+font-size: 18px;
+color: #0091d4;
+}
+.imgApplication {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.sidebar img {
+float: right;
+}
+
+.footer__nav {
+width: 100%;
+background-color: #ccc;
+}
+
+.footer__nav .nav-list {
+display: flex;
+justify-content: space-around;
+}
+
+.nav-item {
+text-align: center;
+}
+
+div.footer ul li:hover {
+text-decoration: underline;
+color: #0091d4;
+}
+div.footer ul li a{
+display: block;
+color:#0091d4;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.footer .row-text {
+text-align: center;
+width: 95%;
+margin: 12px auto;
+}
+.footer .row-text p {
+margin-bottom: 12px;
+}
+
+.row-thongbao {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+.row-thongbao img {
+width: 9%;
+display: flex;
+justify-content: center;
+height: 50px;
+
+}
+
+
+@media screen and (max-width: 992px) {
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.header img {
+    margin-left: 0;
+  }
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.container {
+  width: 100%;  
+}
+.imgApplication {
+  text-align: center;
+
+}
+
+
+.footer__nav {
+display: none;
+}
+
+.row-thongbao {
+width: 95%;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+}
+.row-thongbao img{
+  width: 20%;
+
+}
+}

@@ -1,0 +1,438 @@
+@media (max-width: 991px) {
+    h1 {
+        font-size: 48px;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    h3 {
+        font-size: 32px;
+    }
+    
+    h4 {
+        font-size: 28px;
+    }
+    
+    h5 {
+        font-size: 20px;
+    }
+    
+    h6 {
+        font-size: 18px;
+    }
+    .dropdown .dropdown-menu {
+        background: var(--white-color);
+        animation: none;
+        box-shadow: none;
+        border: none;
+    }
+
+    .nav-item .dropdown-menu::after {
+        display: none;
+    }
+
+    .navbar-nav .nav-item.dropdown:hover #navbarLightDropdownMenuLink {
+        transform: translateX(95%);
+    }
+
+    .incentives-block,
+    .experience-block {
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    .incentives,
+    .experience {
+        width: 48%;
+    }
+
+    #about-page .navbar-expand-lg .container {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #about-page .navbar-expand-lg .collapse {
+        background-color: var(--custom-section-color);
+    }
+
+    #about-page .navbar-expand-lg .navbar-brand {
+        margin-left: 20px;
+    }
+    #about-page .navbar-expand-lg .btn-close {
+        margin-right: 20px;
+        background-color: var(--white-color);
+    }
+    #about-page .navbar-expand-lg .navbar-toggler {
+        margin-right: 20px;
+        background-color: var(--white-color);
+    }
+
+   
+    .section-itinerary {
+        background-image: none;
+        background-color: var(--custom-section-color);
+        height: auto;
+    }
+
+    .section-itinerary .header-content h3,
+    .section-highlights .header-content h3 {
+        width: 80%;
+    }
+
+    .section-itinerary .header-content .data {
+        width: 80%;
+        margin: auto;
+    }
+
+    .time-line {
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+
+    .first-time,
+    .second-time,
+    .third-time,
+    .fourth-time,
+    .fifth-time {
+        position: relative;
+        border: 2px solid var(--border-color);
+        width: 250px;
+        height: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 20px;
+    }
+
+    .description {
+        height: 180px;
+    }
+
+    .section-highlights img {
+        display: none;
+    }
+
+    .reason {
+        height: 180px;
+    }
+
+    .google-map {
+        width: 100%;
+    }
+    
+    
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    
+    h3 {
+        font-size: 26px;
+    }
+    
+    h4 {
+        font-size: 22px;
+    }
+    
+    h5 {
+        font-size: 20px;
+    }
+
+    .section-introduce .row {
+        flex-direction: column-reverse;
+    }
+    .section-introduce {
+        border-radius: 50% 50% 0% 0% / 2% 2% 10% 10%;
+        padding-top: 40px;
+    }
+
+    .section-introduce .content {
+        padding-left: 20px;
+    }
+
+    .section-introduce .image {
+        width: 100%;
+        padding: 20px;
+        margin: auto;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+    }
+
+    .section-introduce .content h3 {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .section-introduce .content p {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .section-introduce .content span i {
+        color: var(--secondary-color);
+        padding: 8px 0;
+        margin: 0;
+        padding-right: 6px;
+    }
+
+    .section-advantages .row {
+        flex-direction: column;
+    }
+    
+    .section-advantages .content {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .section-advantages .content .first-content .image,
+    .section-advantages .content .third-content .image{
+        width: 20%;
+    }
+
+    .section-advantages .content .first-content,
+    .section-advantages .content .third-content {
+        width: 100%;
+    }
+
+    .section-advantages .content .third-content section {
+        flex-direction: row !important;
+    }
+
+    .section-advantages .content .third-content span {
+        text-align: start;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .section-questions .content-left {
+        padding: 0;
+        text-align: center;
+    }
+
+    .section-questions .content-right {
+        padding: 0 12px;
+    }
+
+    .section-questions .content-right i {
+        right: 2%;
+    }
+
+    .booking .btn-booking {
+        width: 30%;
+    }
+ 
+    .footer {
+        padding-bottom: 140px;
+    }
+
+    .footer .second-content ul,
+    .footer .third-content ul,
+    .footer .fourth-content ul {
+        padding: 0;
+    }
+
+    .footer .copyright {
+        flex-direction: column-reverse;
+       
+    }
+
+    .footer .copyright .app {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer .copyright .social-icons {
+        padding-bottom: 20px;
+    }
+
+    .section-about .content{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .first-time,
+    .second-time,
+    .third-time,
+    .fourth-time,
+    .fifth-time {
+        width: 90%;
+    }
+
+    .description {
+        height: auto;
+    }
+
+    .section-itinerary .header-content .data {
+        width: 100%;
+        margin: auto;
+        padding: 12px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .section-introduce .content {
+        padding-left: 0px;
+    }
+
+    .section-introduce .content h3 {
+        margin-bottom: 10px;
+    }
+
+    .section-introduce .content p {
+        margin: 0;
+    }
+
+    .section-introduce .content span i {
+        padding: 8px 0;
+        margin: 0;
+        padding-right: 6px;
+    }
+
+    .section-introduce .image {
+        margin: auto;
+        min-width: 50%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+    }
+
+    .btn-booking {
+        width: 40%;
+        
+    }
+
+
+    .section-advantages .content {
+        width: 100%;
+    }
+
+    .section-advantages .content .first-content,
+    .section-advantages .content .third-content {
+        width: 40%;
+    }
+
+    .section-questions .content-left {
+        padding: 0;
+    }
+
+    .booking .btn-booking {
+        width: 20%;
+    }
+
+    .footer .third-content ul {
+        padding: 0;
+    }
+
+    .footer .third-content,
+    .footer .fourth-content {
+        margin-top: 20px;
+    }
+
+    .section-about .content{
+        width: 50%;
+    }
+
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .section-introduce .row {
+        flex-direction: column-reverse;
+    }
+
+    .section-introduce {
+        border-radius: 50% 50% 0% 0% / 3% 3% 10% 10%;
+        padding-top: 50px;
+    }
+    .section-introduce .content {
+        padding: 0;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .section-introduce .content h3 {
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
+    .section-introduce .content p {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .section-introduce .image {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .section-advantages .content {
+        width: 100%;
+    }
+
+    .section-advantages .content .first-content,
+    .section-advantages .content .third-content {
+        width: 49%;
+        padding: 0 20px;
+    }
+
+    .section-questions .content-left {
+        padding: 0;
+        text-align: center;
+    }
+
+    .booking .btn-booking {
+        width: 20%;
+    }
+
+    .footer {
+        padding-bottom: 140px;
+    }
+
+    .footer .second-content ul,
+    .footer .third-content ul,
+    .footer .fourth-content ul {
+        padding: 0;
+    }
+ 
+    .footer .copyright {
+        flex-direction: column-reverse;
+       
+    }
+
+    .footer .copyright .app {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer .copyright .social-icons {
+        padding-bottom: 20px;
+    }
+
+    .section-about .content{
+        width: 60%;
+    }
+    
+    .reason {
+        height: auto;
+    }
+
+}
+

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope - Tổng công ty đường sắt Việt Nam</title>
+    <link rel="icon" type="image" href="./assets/images/LOGO_n.png">
+
+    <!-- Link boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="./assets/font/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    
+</head>
+<body>
+    <div class="main">
+        <!-- Thanh header -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="./assets/images/LOGO_n.png" class="img-fluid logo-image">
+
+                    <div class="d-flex flex-column">
+                        <strong class="logo-text">HOPE</strong>
+                        <small class="logo-slogan">Online Ticket Booking</small>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler d-xl-none" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <button type="button" class="btn-close d-none"></button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav align-items-center ms-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Trang chủ</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dịch vụ</a>
+                        
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-magnifying-glass"></i> Tìm vé
+                                        <p>Tìm kiếm nhanh chóng - tiện lợi</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ThongtinDatcho.html"><i class="fa-solid fa-circle-info"></i> Thông tin đặt chỗ
+                                        <p>Tra cứu - thay đổi thông tin</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="TraVe.html"><i class="fa-solid fa-rotate-left"></i> Trả vé
+                                        <p>Nhanh chóng - tiết kiệm chi phí</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="kt_ve.html"><i class="fa-solid fa-circle-check"></i> Kiểm tra vé
+                                        <p>Đảm bảo thông tin - chuyến đi hạnh phúc</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Giới thiệu Hope</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Liên hệ</a>
+                        </li>
+
+                        <li class="nav-item ms-lg-auto">
+                            <a class="nav-link" href="#">Đăng ký</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-login" href="#">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Background -->
+        <section class="section-home">
+            <img src="./assets/images/HomeBackground.jpg" class="img-fluid" alt="">
+        </section>
+
+        <!-- Giới thiệu  -->
+        <section class="section-introduce">
+            <div class="container">
+                <div class="row">
+                    <div class="content col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <h3>Đặt mua vé Tàu hoả trên HOPE</h3>
+                        <p>Chuẩn bị cho chuyến đi tuyệt vời sắp tới của bạn cùng HOPE: Tìm kiếm thông tin hành trình tàu chạy, đặt mua vé tàu hoả và thanh toán tiện lợi với nhiều cơ hội nhận ưu đãi hấp dẫn.</p>
+                        <span>
+                            <i class="fa-solid fa-circle-check"></i> Dễ dàng chọn chỗ ngồi, chuyến đi theo ý thích <br>
+                            <i class="fa-solid fa-circle-check"></i> Giá vé cạnh tranh, nhiều ưu đãi mỗi ngày <br>
+                            <i class="fa-solid fa-circle-check"></i> Quản lí chuyến đi cá nhân
+                        </span>
+                        <br>
+                        <button class="btn-booking">Đặt vé ngay</button>
+                    </div>
+        
+                    <div class="image col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <img src="./assets/images/HomeIntroduce.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ưu đãi -->
+        <section class="section-incentives">
+            <div class="content-header">
+                <h4>Ưu đãi hấp dẫn<br>Ngập tràn khuyến mãi vé tàu</h4>
+                <p>Đặt vé tàu khỏe re, tận hưởng mức giá rẻ hơn nhờ những ưu đãi có 1-0-2. Mua đi chờ chi!</p>
+            </div>
+
+            <div class="incentives-block">
+                <a type="button" class="incentives" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <img src="./assets/images/Picture5.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Ưu đãi xõa hè khủng - Vi Vu bằng tàu hỏa cực sung</p>
+                    <span class="text-primary fs-6">11/06/2023</span>
+                </a>
+                <a type="button" class="incentives" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <img src="./assets/images/Picture6.png" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Nhanh tay đặt vé tàu hỏa, Hope giảm ngay 30K</p>
+                    <span class="text-primary fs-6">20/05/2023</span>
+                </a>
+                <a href="#" class="incentives">
+                    <img src="./assets/images/Picture1.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Hè sảng khoái, thoải mái đi tàu - Deal khủng giảm đến 50%</p>
+                    <span class="text-primary fs-6">20/04/2023</span>
+                </a>
+                <a href="#" class="incentives">
+                    <img src="./assets/images/aaaa.png" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Du lịch thả ga - Xả hot deal thứ 3 đến 590.000Đ</p>
+                    <span class="text-primary fs-6">14/03/2023</span>
+                </a>
+                <a href="#" class="incentives">
+                    <img src="./assets/images/Picture2.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Đặt tàu nhanh - Giảm cực mạnh - Tặng deal 30.000Đ!</p>
+                    <span class="text-primary fs-6">22/02/2023</span>
+                </a>
+                <a href="#" class="incentives">
+                    <img src="./assets/images/momo-upload-api-230111163615-638090517752141207.jfif" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Tàu hỏa du xuân, thả deal cực ưng từ Hope!</p>
+                    <span class="text-primary fs-6">16/01/2023</span>
+                </a>
+                <a href="#" class="incentives">
+                    <img src="./assets/images/Picture3.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Tàu hỏa du xuân, thả deal cực ưng từ Hope!</p>
+                    <span class="text-primary fs-6">11/01/2023</span>
+                </a>
+                <a href="#" class="incentives">
+                    <img src="./assets/images/Picture7.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Săn deal tàu Tết, về nhà hết ý cùng Hope!</p>
+                    <span class="text-primary fs-6">16/12/2022</span>
+                </a>
+                <a href="#" class="incentives">
+                    <img src="./assets/images/Picture4.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Thu đến, săn deal tàu hỏa tới bến: Giảm ngay 30.000Đ trên Hope</p>
+                    <span class="text-primary fs-6">27/08/2022</span>
+                </a>
+            </div>
+
+            <button class="btn-incentives">Xem thêm</button>
+        </section>  
+
+        <!-- Lợi ích -->
+        <section class="section-advantages">
+            <h4>Trải ngiệm đặt vé tàu hoả siêu tốc trên Hope</h4>
+            <div class="content">
+                <div class="row">
+                    <div class="first-content col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="d-flex">
+                            <div class="image">
+                                <img src="./assets/images/icon-1.png" width="100%" alt="">
+                            </div>
+                            <span>
+                                <h6>Mua vé nhanh chóng</h6>
+                                <p>Kiểm tra được giá vé, thời gian xuất phát của tất cả hãng tàu cho phép đặt trên Hope.</p>
+                            </span>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="image">
+                                <img src="./assets/images/icon-2.png" width="100%" alt="">
+                            </div>
+                            <span>
+                                <h6>Hỗ trợ khách hàng 24/7</h6>
+                                <p>Đội ngũ nhân viên hỗ trợ khách hàng luôn sẵn sàng giúp đỡ bạn trong quá trình đặt vé.</p>
+                            </span>
+                        </div>
+                    </div>
+    
+                    <div class="second-content col-xl-4 col-lg-4 d-md-none d-none d-sm-none d-lg-block d-xl-block">
+                        <img src="./assets/images/advantage.jpg" class="img-fluid" alt="">
+                    </div> 
+    
+                    <div class="third-content col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <section class="d-flex flex-row-reverse">
+                            <div class="image">
+                                <img src="./assets/images/icon-3.png" width="100%" alt="">
+                            </div>
+                            <span>
+                                <h6>Thanh toán siêu bảo mật</h6>
+                                <p>Hope hỗ trợ bạn thanh toán qua các ngân hàng, đảm bảo an toàn, bảo mật thông tin.</p>
+                            </span>
+                        </section>
+
+                        <section class="d-flex flex-row-reverse">
+                            <div class="image">
+                                <img src="./assets/images/icon-4.png" width="100%" alt="">
+                            </div>
+                            <span>
+                                <h6>Ngập tràn ưu đãi</h6>
+                                <p>Đặt vé tàu tại Hope luôn có nhiều ưu đãi giá vé tuyệt vời dành chờ đón quý khách hàng.</p>
+                            </span>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frequently Asked Questions: Các câu hỏi thường gặp -->
+        <section class="section-questions">
+            <div class="container">
+                <div class="row">
+                    <div class="content-left col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                        <h4>Bạn hỏi, Hope trả lời</h4>
+                        <p>Những câu hỏi thường gặp khi đặt vé tàu hỏa trên Hope</p>
+                    </div>
+    
+                    <ul class="content-right col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                        <!-- Frequently Asked Questions -->
+                        <li class="faq">
+                            <div class="question">
+                                <p>Sau khi thanh toán vé sẽ được gửi về đâu?</p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+
+                            <div class="answer">
+                                <ul>Có 2 cách để kiểm tra vé tàu hỏa đã mua qua ứng dụng HOPE.
+                                    <li>Cách 1: Sau khi thanh toán, vé sẽ được gửi về email mà bạn đã dùng để đăng ký. Mở Email mà bạn đã đăng ký khi mua vé tàu để kiểm tra vé.</li>
+                                    <li>Cách 2: Nếu số điện thoại bạn dùng để đăng ký mua vé tàu online có sử dụng Zalo, thì vé sẽ được gửi về Zalo thông qua số điện thoại đó.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li class="faq">
+                            <div class="question">
+                                <p>Nếu lịch trình tàu thay đổi, tôi sẽ nhận được thông báo qua đâu?</p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+
+                            <div class="answer">
+                                <p>Nếu lịch trình di chuyển có thay đổi, chi tiết sẽ được thông báo qua Email và số điện thoại mà bạn đã dùng để đăng ký với Tổng công ty Đường sắt Việt Nam.</p>
+                            </div>
+                        </li>
+                        
+                        <li class="faq">
+                            <div class="question">
+                                <p>Có thể hoàn hủy vé tàu hỏa online đã đặt không?</p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+
+                            <div class="answer">
+                                <p>Trong trường hợp bạn muốn hoàn vé, bạn nên liên hệ trực tiếp với bộ phận CSKH của HOPE qua Hotline: 1900 636 652 để yêu cầu hoàn tiền. Nếu vé của bạn nằm trong chính sách hoàn tiền của hãng tàu, Hope sẽ gửi thông báo kèm email xác nhận và liên hệ với bạn để hoàn tất quá trình hoàn tiền.</p>
+                            </div>
+                        </li>
+                        
+                        <li class="faq">
+                            <div class="question">
+                                <p>Giá vé tàu hỏa trên Hope đã bao gồm thuế phí chưa?</p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+
+                            <div class="answer">
+                                <p>Giá hiển thị cho vé tàu hỏa mua trên Hope là giá cuối đã bao gồm thuế phí.</p>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+           </div>
+        </section>
+
+        <!-- Kinh nghiệm du lịch -->
+        <section class="section-experiences">
+            <div class="content-header">
+                <h4>Kinh nghiệm Du lịch - Đi lại</h4>
+                <p>Cùng Hope tận hưởng muôn chuyến đi vui với những bí kíp du lịch cực đỉnh, chân thật nhất.</p>
+            </div>
+
+            <div class="experience-block">
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-13.jpeg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Điểm danh top 26 địa điểm du lịch Đà Lạt hot nhất 2023</p>
+                    <span class="text-primary fs-6">34.6k lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-14.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Top 26 địa điểm du lịch Nha Trang chưa bao giờ hết “hot”</p>
+                    <span class="text-primary fs-6">14k lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-15.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Theo chân người bản địa, thưởng thức top 8 món ăn đặc sản Gia Lai ngon tuyệt</p>
+                    <span class="text-primary fs-6">8.6k lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-1.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Tổng hợp những lễ hội mùa xuân cực hot để vi vu khám phá</p>
+                    <span class="text-primary fs-6">885 lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-2.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Luôn có một nơi gọi là “nhà”, để mong “về nhà”!</p>
+                    <span class="text-primary fs-6">633 lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-3.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Bỏ túi top điểm đến chill Tết 2023 cùng gia đình</p>
+                    <span class="text-primary fs-6">687 lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-4.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Kinh nghiệm du lịch an toàn nơi đông người trong mùa lễ hội</p>
+                    <span class="text-primary fs-6">640 lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-5.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Điểm mặt một số lễ hội tưng bừng đầu năm 2023 tại Việt Nam</p>
+                    <span class="text-primary fs-6">449 lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-6.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Những thông tin hữu ích bạn cần biết về sân bay Vân Đồn</p>
+                    <span class="text-primary fs-6">1.2k lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-7.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Khám phá bản Tả Phìn Sapa - nơi dừng chân lý tưởng cho mùa hè rực rỡ</p>
+                    <span class="text-primary fs-6">2k lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-8.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Cầu kính Sapa: Điểm du lịch thú vị giữa núi đồi Tây Bắc bao la</p>
+                    <span class="text-primary fs-6">5k lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-9.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Quảng trường Lâm Viên - biểu tượng của Đà Lạt cho các tín đồ thích check-in</p>
+                    <span class="text-primary fs-6">1.9 lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-10.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Top 25 địa điểm du lịch Đà Nẵng hội mê xê dịch nhất định phải đến một lần</p>
+                    <span class="text-primary fs-6">3.6k lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-11.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Khám phá Tháp bà Ponagar Nha Trang - di sản văn hóa Chăm Pa nổi tiếng tại Khánh Hòa</p>
+                    <span class="text-primary fs-6">3.4k lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-12.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Du lịch vườn quốc gia Bạch Mã cùng Hope - khám phá lá phổi xanh dịu mát giữa xứ Huế</p>
+                    <span class="text-primary fs-6">871 lượt xem</span>
+                </a>
+                <a href="#" class="experience">
+                    <img src="./assets/images/e-16.jpg" class="img-fluid rounded" alt="">
+                    <p class="text-dark m-0 pt-2 pb-2 fs-6">Bỏ túi ngay 6 khu du lịch sinh thái Đồng Nai cho chuyến vui chơi cuối tuần cùng chiến hữu</p>
+                    <span class="text-primary fs-6">4.1k lượt xem</span>
+                </a>
+                
+            </div>
+
+            <button class="btn-experience">Xem thêm</button>
+        
+
+        </section>
+
+        <div class="booking">
+            <button class="btn-booking">Đặt vé ngay</button>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="first-content col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <img src="./assets/images/LOGO_n.png" width="20%" alt="">
+                        <span>Tổng công ty Đường sắt Việt Nam</span>
+        
+                        <p>
+                            Lầu 6, Toà nhà Phú Mỹ Hưng, số 8 Hoàng Văn Thái, khu phố 1, Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh
+                        </p>
+                        <img src="./assets/images/momo-upload-api-210629153623-637605777831780706.jfif" alt=""/>
+                    </div>
+                    <div class="second-content col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <ul>
+                            <a href="#"><li>Về HOPE</li></a>
+                            <a href="#"><li>Blog</li></a>
+                            <a href="#"><li>Liên hệ</li></a>
+                            <a href="#"><li>Điều khoản điều lệ</li></a>
+                            <a href="#"><li>Chính sách quyền riêng tư</li></a>
+                        </ul>
+                    </div>
+                    <div class="third-content col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <ul>
+                            <li>CHĂM SÓC KHÁCH HÀNG</li>
+                            <li> Địa chỉ:
+                                <span>Tầng M, Tòa nhà Victory Tower, Số 12 Tân Trào, Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh</span>
+                            </li>
+                            <li>Hotline : <span>1900 636 652 </span>(1000 đ/phút)</li>
+                            <li>Email : <span>hotro@hope.vn</span></li>
+                            <li>Tổng đài gọi ra : <br/><span>028.7306.5555 - 028.9999.5555</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fourth-content col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <ul>
+                            <li>HỢP TÁC DOANH NGHIỆP</li>
+                            <li>Hotline : <span>1900 636 652</span></li>
+                            <li>Email : <span>merchant.care@hope.vn</span></li>
+                            <li>Website : <span>business.hope.vn</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>©Copyright M_Service 2023</p>
+                <div class="social-icons">
+                    <a><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-brands fa-instagram"></i></a>
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                    <a><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="app">
+                    <img src="./assets/images/appstore.jpg" width="35%" alt="">
+                    <img src="./assets/images/ggplay.jpg" width="35%" alt="">
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Tin tức</h1>
+                <button type="button" class="btn-close btn-close-modal" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-page-incentives">
+                        <section class="page-incentives">
+                            <div class="content">
+                                <img src="./assets/images/Picture5.jpg" class="img-fluid" alt="">
+                                <h4>Ưu đãi xõa hè khủng - Vi Vu bằng tàu hỏa cực sung</h4>
+                                <div class="small-advertise">
+                                    <div>
+                                    <a href="#">Khuyến mãi</a>
+                                    <span>11/06/2023 - 20.4k lượt xem</span>
+                                    </div>
+                                    <button>Chia sẻ  <i class="fa-solid fa-share"></i></button>
+                                </div>
+                                <p>Vui hè đã, xõa rồi tính! Hè này không lên tàu hỏa vi vu là tiếc lắm đó nha, vì Hope đang tung ưu đãi nóng hổi cho các bạn thỏa thích chu du mùa hè. Cùng tìm hiểu chi tiết chương trình nào!</p>
+                                <p class="text-dark fs-6">🌴 Cuộc sống mà, cái nào vui vẻ thì mình ưu tiên, chill hè trước đã mọi chuyện cứ để sau! Bao lâu rồi những chiếc áo hoa rực rỡ chưa được diện? Bao lâu rồi chiếc vali ở góc phòng vẫn nằm yên một chỗ? Bao lâu rồi kể từ lời hứa cùng nhau “đi trốn” vẫn còn bỏ ngỏ? Nay thời tới rồi, hè là phải vi vu đã đời “trả thù” cho những năm tháng cũ chôn chân chỉ miệt mài làm và học.</p>
+                                <p class="text-dark fs-6">🚂 Nếu đã quyết vi vu mùa hè tới cùng mà vẫn lăn tăn chưa chọn được phương tiện ưng ý, tàu lửa chính là gợi ý lý tưởng Hope dành cho bạn. Di chuyển với tàu lửa vừa cực thoải mái, vừa dễ ngắm cảnh, vừa vô tư cho ra đời những bức ảnh sống ảo lung linh, đặc biệt giá cả lại cực phải chăng nhờ có chương trình ưu đãi nóng hổi từ Hope:</p>
+                                <p class="text-dark fs-6">🔥 Từ nay đến 15/07, giảm ngay 20.000Đ với hóa đơn từ 300.000Đ (chỉ áp dụng cho khách hàng lần đầu đặt vé tàu hỏa trên Hope). 
+                                Đặt vé trên Hope không những tiện lợi mà còn tiết kiệm, rủ ngay hội bạn thân triển thôi nào!</p>
+                                <ul>Điều kiện & điều khoản:
+                                    <li>Thời gian diễn ra chương trình: Từ nay đến hết 15/07/2023.</li>
+                                    <li>Thẻ quà áp dụng cho khách hàng lần đầu đặt vé tàu hỏa trên Hope.</li>
+                                    <li>Thẻ quà chỉ áp dụng giảm trên giá vé gốc (giá hiển thị khi chọn chỗ), chưa bao gồm phí dịch vụ, phụ phí khác.</li>
+                                    <li>Chương trình có thể kết thúc trước thời hạn nếu hết thẻ quà tặng.</li>
+                                    <li>Mỗi khách hàng chỉ được hưởng ưu đãi 1 lần (1 lần/1 Ví/1CMND/1 tài khoản ngân hàng/1 thiết bị).</li>
+                                    <li>Mỗi thẻ quà áp dụng cho 1 lần thanh toán và không áp dụng thanh toán bằng phương thức Ví Trả Sau.</li>
+                                    <li>Thẻ quà chỉ áp dụng khi mua vé tàu hỏa trên Hope.</li>
+                                </ul>
+                            </div>
+                        </section>
+            
+                        <section class="page-incentives">
+                            <div class="content">
+                                <h4>Đặt vé tàu hỏa, Hope giảm ngay 30K</h4>
+                                <div class="small-advertise">
+                                  <div>
+                                    <a href="#">Khuyến mãi</a>
+                                    <span>20/05/2023 - 1.1k lượt xem</span>
+                                  </div>
+                                  <button>Chia sẻ  <i class="fa-solid fa-share"></i></button>
+                                </div>
+                                <p>Các tín đồ du lịch ơi, nhanh tay nhận ưu đãi trong lần đầu đặt vé tàu hỏa qua Hope nhé, nhận quà 30.000đ về Ví!</p>
+                                <img src="./assets/images/Picture6.png" class="img-fluid" alt="">
+                                <p class="text-dark pt-3">Đi một chuyến tàu, nhận một deal ngon, độc quyền trên Hope đã có sẵn, dành tặng những “tình yêu” lần đầu đặt vé tàu hỏa trên Hope! Thẻ quà tặng 30.000đ được áp dụng từ nay - 30/06, chậm tay là thua!</p>
+                                <p class="text-dark">Dù ai nói ngả nói nghiêng, đặt vé tàu hỏa nhận liền 30K. Mua vé tàu trên Hope là tiện lợi và nhiều ưu đãi nhất có đúng không cả nhà? Nhớ trải nghiệm ngay nhé!</p>
+                                <ul>Điều kiện & điều khoản:
+                                  <li>Thời gian diễn ra chương trình: Từ nay đến hết 30/06/2023.</li>
+                                  <li>Chương trình áp dụng cho khách hàng lần đầu đặt vé tàu hỏa trực tiếp trên ứng dụng Hope.</li>
+                                  <li>Thẻ quà chỉ áp dụng giảm trên giá vé gốc (giá hiển thị khi chọn chỗ), chưa bao gồm phí dịch vụ, phụ phí khác.</li>
+                                  <li>Chương trình có thể kết thúc trước thời hạn nếu hết thẻ quà tặng.</li>
+                                  <li>Mỗi khách hàng chỉ được hưởng ưu đãi 1 lần (1 lần/1 Ví/1CMND/1 tài khoản ngân hàng/1 thiết bị).</li>
+                                  <li>Mỗi thẻ quà áp dụng cho 1 lần thanh toán và không áp dụng thanh toán bằng phương thức Ví Trả Sau.</li>
+                                  <li>Thẻ quà chỉ áp dụng khi mua vé tàu hỏa trên Hope.</li>
+                                </ul>
+                                <ul>Mọi thắc mắc về việc thanh toán, người dùng có thể liên hệ qua:
+                                  <li>Hotline: 1900 636 652 (1.000Đ/phút)</li>
+                                  <li>Email : merchant.care@hope.vn</li>
+                                </ul>
+                              </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a type="button" class="btn-modal-booking" data-bs-dismiss="modal">Đặt vé ngay</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+    <!-- Link js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</html>
