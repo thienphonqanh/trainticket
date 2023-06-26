@@ -127,6 +127,17 @@
         width: 100%;
     }
     
+    #exampleModalToggle .modal-content,
+    #exampleModalToggle2 .modal-content {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #staticBackdrop .modal-content {
+        height: 100vh;
+        width: 100vw;
+
+    }
     
 }
 
