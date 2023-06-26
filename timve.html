@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="HTML/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="HTML/bootstrap/js/bootstrap.bundle.min.js">
+    <!-- thư viện bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- thư viện Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/timve.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome/css/all.min.css">
+
+    <!-- Thư viện Boostrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--  -->
+    <script src="HTML/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body id="timve-page">
+     <!-- Thanh header -->
+     <nav class="navbar navbar-expand-lg">
+      <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <img src="./assets/images/LOGO_n.png" class="img-fluid logo-image">
+
+              <div class="d-flex flex-column">
+                  <strong class="logo-text">HOPE</strong>
+                  <small class="logo-slogan">Online Ticket Booking</small>
+              </div>
+          </a>
+
+          <button class="navbar-toggler d-xl-none" type="button">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <button type="button" class="btn-close d-none"></button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav align-items-center ms-lg-5">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="index.html">Trang chủ</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dịch vụ</a>
+                  
+                      <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                          <li>
+                              <a class="dropdown-item" href="timve.html"><i class="fa-solid fa-magnifying-glass"></i> Tìm vé
+                                  <p class="fs-6">Tìm kiếm nhanh chóng - tiện lợi</p>
+                              </a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item" href="ThongtinDatcho.html"><i class="fa-solid fa-circle-info"></i> Thông tin đặt chỗ
+                                  <p class="fs-6">Tra cứu - thay đổi thông tin</p>
+                              </a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item" href="TraVe.html"><i class="fa-solid fa-rotate-left"></i> Trả vé
+                                  <p class="fs-6">Nhanh chóng - tiết kiệm chi phí</p>
+                              </a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item" href="kt_ve.html"><i class="fa-solid fa-circle-check"></i> Kiểm tra vé
+                                  <p class="fs-6">Đảm bảo thông tin - chuyến đi hạnh phúc</p>
+                              </a>
+                          </li>
+                      </ul>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">Giới thiệu Hope</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Liên hệ</a>
+                  </li>
+
+                  <li class="nav-item ms-lg-auto">
+                      <a class="nav-link"  data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Đăng ký</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link btn-login" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Đăng nhập</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>  
+
+    <section class="main">
+      <div class="row">
+        <div class="col-sm col1">
+          <img src="./assets/images/train1.jpg" style="width:100%;" alt="">
+        </div>
+        <div class="col-md col2">
+          
+          <h4>TÌM KIẾM CHUYẾN TÀU</h4>
+          <div class="form-gr">
+            <div class="mb-3">
+                <label for="" class="form-label"><h6>Ga đi :</h6></label>
+                <select class="form-select form-select-lg" name="" id="">
+                    <optgroup label="Miền Bắc">
+                        <option value="">Hà Nội</option>
+                        <option value="">Giáp Bát</option>
+                        <option value="">Văn Điển</option>
+                        <option value="">Thường Tín</option>
+                        <option value="">Chợ Tía</option>
+                        <option value="">Phú Xuyên</option>
+                        <option value="">Đồng Văn</option>
+                        <option value="">Phủ Lý</option>
+                        <option value="">Bình Lục</option>
+                        <option value="">Cầu Họ</option>
+                        <option value="">Đặng Xá</option>
+                        <option value="">Nam Định</option>
+                        <option value="">Trình Xuyên</option>
+                        <option value="">Núi Gôi</option>
+                        <option value="">Cát Đằng</option>
+                        <option value="">Ninh Bình</option>
+                    </optgroup>
+                    <optgroup label="Miền Trung">
+                        <option value="">Bỉm Sơn</option>
+                        <option value="">Thanh Hóa</option>
+                        <option value="">Minh Khôi</option>
+                        <option value="">Chợ Sy</option>
+                        <option value="">Vinh</option>
+                        <option value="">Yên Trung</option>
+                        <option value="">Hương Phố</option>
+                        <option value="">Đồng Lê</option>
+                        <option value="">Đồng Hới</option>
+                        <option value="">Đông Hà</option>
+                        <option value="">Huế</option>
+                        <option value="">Lăng Cô</option>
+                        <option value="">Đà Nẵng</option>
+                        <option value="">Trà Kiệu</option>
+                        <option value="">Phú Cang</option>
+                        <option value="">Tam Kỳ</option>
+                        <option value="">Núi Thành</option>
+                        <option value="">Quảng Ngãi</option>
+                        <option value="">Đức Phổ</option>
+                        <option value="">Bồng Sơn</option>
+                        <option value="">Quy Nhơn</option>
+                        <option value="">Tuy Hòa</option>
+                        <option value="">Giã</option>
+                        <option value="">Ninh Hòa</option>
+                        <option value="">Nha Trang</option>
+                        <option value="">Ngã Ba</option>
+                        <option value="">Tháp Chàm</option>
+                        <option value="">Sông Mao</option>
+                        <option value="">Ma Lâm</option>
+                        <option value="">Phan Thiết</option>
+                        <option value="">Bình Thuận</option>
+                    </optgroup>
+                     <optgroup label="Miền Nam">
+                        <option value="">Long khánh</option>
+                        <option value="">Trảng Bom</option>
+                        <option value="">Biên Hòa</option>
+                        <option value="">Dĩ An</option>
+                        <option value="">Sóng Thần</option>
+                        <option value="">Bình Triệu</option>
+                        <option value="">Gò Vấp</option>
+                        <option value="">Sài Gòn</option>
+                    
+                     </optgroup>
+                </select>
+            </div>
+        </div>
+        <div class="form-gr">
+            <div class="mb-3">
+                <label for="" class="form-label"><h6>Ga đến :</h6></label>
+                    <select class="form-select form-select-lg" name="" id="">
+                        <optgroup label="Miền Bắc">
+                            <option value="">Hà Nội</option>
+                            <option value="">Giáp Bát</option>
+                            <option value="">Văn Điển</option>
+                            <option value="">Thường Tín</option>
+                            <option value="">Chợ Tía</option>
+                            <option value="">Phú Xuyên</option>
+                            <option value="">Đồng Văn</option>
+                            <option value="">Phủ Lý</option>
+                            <option value="">Bình Lục</option>
+                            <option value="">Cầu Họ</option>
+                            <option value="">Đặng Xá</option>
+                            <option value="">Nam Định</option>
+                            <option value="">Trình Xuyên</option>
+                            <option value="">Núi Gôi</option>
+                            <option value="">Cát Đằng</option>
+                            <option value="">Ninh Bình</option>
+                        </optgroup>
+                        <optgroup label="Miền Trung">
+                            <option value="">Bỉm Sơn</option>
+                            <option value="">Thanh Hóa</option>
+                            <option value="">Minh Khôi</option>
+                            <option value="">Chợ Sy</option>
+                            <option value="">Vinh</option>
+                            <option value="">Yên Trung</option>
+                            <option value="">Hương Phố</option>
+                            <option value="">Đồng Lê</option>
+                            <option value="">Đồng Hới</option>
+                            <option value="">Đông Hà</option>
+                            <option value="">Huế</option>
+                            <option value="">Lăng Cô</option>
+                            <option value="">Đà Nẵng</option>
+                            <option value="">Trà Kiệu</option>
+                            <option value="">Phú Cang</option>
+                            <option value="">Tam Kỳ</option>
+                            <option value="">Núi Thành</option>
+                            <option value="">Quảng Ngãi</option>
+                            <option value="">Đức Phổ</option>
+                            <option value="">Bồng Sơn</option>
+                            <option value="">Quy Nhơn</option>
+                            <option value="">Tuy Hòa</option>
+                            <option value="">Giã</option>
+                            <option value="">Ninh Hòa</option>
+                            <option value="">Nha Trang</option>
+                            <option value="">Ngã Ba</option>
+                            <option value="">Tháp Chàm</option>
+                            <option value="">Sông Mao</option>
+                            <option value="">Ma Lâm</option>
+                            <option value="">Phan Thiết</option>
+                            <option value="">Bình Thuận</option>
+                        </optgroup>
+                         <olptgroup label="Miền Nam">
+                            <option value="">Long khánh</option>
+                            <option value="">Trảng Bom</option>
+                            <option value="">Biên Hòa</option>
+                            <option value="">Dĩ An</option>
+                            <option value="">Sóng Thần</option>
+                            <option value="">Bình Triệu</option>
+                            <option value="">Gò Vấp</option>
+                            <option value="">Sài Gòn</option>
+                        
+                         </optgroup>
+                    </select>
+            </div>
+        </div>
+    
+            <div class="chose-gr p-3" >
+                <input type="radio" name="go">Một chiều
+                <input type="radio" name="go">Khứ hồi
+              </div>
+        
+        <div class="day-gr">
+            <h6>Ngày đi</h6>
+            <input class="input text-height" type="text"  placeholder="dd/mm/yyyy" required>
+            <h6>Ngày về</h6>
+            <input class="input text-weight" type="text" placeholder="dd/mm/yyyy" required>
+        </div>
+        <div class="click">
+            <a href="#" class="btn btn-danger">Tìm Kiếm</a>
+        </div>
+        </div>
+        <div class="col-sm col3">
+          <div class="tim-ve">
+            <div class="click">
+              <h6>GIỎ VÉ</h6>
+              <p style="text-align: center;">Bạn chưa có vé</p>
+              <a href="#" class="btn btn-danger">Mua vé</a>
+          </div>
+          
+          </div>
+          <div class="block">
+            <p>Kết nối khác với chúng tôi :</p>
+              <div class="socials">
+                <a href="#"> <i class="bi bi-facebook"></i> </a>
+                <a href="#"> <i class="bi bi-youtube"></i> </a>
+                <a href="#"> <i class="bi bi-instagram"></i> </a>
+              </div>
+          </div>
+          <div class="img">
+            <img src="./assets/images/train2.jpg" style="width: 100%;" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="get-store">
+      <p>Cài đặt ứng dụng</p>
+      <a href="#"><img src="./assets/images/appstore.jpg" style="width: 10em;" alt=""></a>
+      <a href="#"><img src="./assets/images/ggplay.jpg" style="width: 10em;" alt=""></a>
+    </div>
+  </section>
+  <section>
+    <div class="poster">
+    <img src="./assets/images/poster copy.jpg" alt="">
+  </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="foot-1">
+          <div class="about">
+              <p class="title">Thông báo</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam mollitia, rerum unde excepturi ex
+                  quibusdam laudantium, non aut libero deserunt vero distinctio sit ratione sunt nihil debitis fugiat. <br>
+                  Mã số doanh nghiệp : 0xxxxx12x, Ngày đăng ký : dd/mm/yyyy. Tại Thành phố : XXXXX.
+                </p>
+          </div>
+          <div>
+            <div class="title">Tìm Kiếm chính</div>
+            <ul>
+                <li>Tìm vé</li>
+                <li>Thông tin đặt chỗ</li>
+                <li>Trả vé</li>
+                <li>Kiểm tra vé</li>
+                <li>Giờ tàu</li>
+            </ul>
+          </div>
+          <div>
+            <div class="title">Thông tin khác</div>
+            <ul>
+                <li>Khuyến mãi</li>
+                <li>Quy định</li>
+                <li>Hướng dẫn</li>
+                <li>Liên hệ</li>
+            </ul>
+          </div>
+      </div>
+  
+      
+      </div>
+      <div class="footter-1">
+        <p style="margin: 10px !important ">
+          Vui lòng liên hệ với HOTLINE : 1900 1xxx</p>
+      </div>
+  </footer>
+
+  <!-- Modal login -->
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Đăng nhập để tiếp tục</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="#" class="form-group">
+                <div class="login-flatform d-flex justify-content-center">
+                    <a href="https://www.google.com" type="button"">
+                        <img src="./assets/images/google.png" class="img-fluid" alt="">
+                        <span class="px-2">với tài khoản google</span>
+                    </a>
+                    <a href="https://www.facebook.com" type="button"">
+                        <img src="./assets/images/Facebook_Logo_(2019).png.webp" class="img-fluid" alt="">
+                        <span class="px-2">với tài khoản facebook</span>
+                    </a>
+                </div>
+                <p class="text-center text-dark border-top mt-2 pt-2">hoặc đăng nhập bằng email</p>
+                <div class="inp-email d-flex flex-column">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Tên đăng nhập hoặc email" required>
+                </div>
+                <div class="inp-password d-flex flex-column">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" name="password" id="password" placeholder="Mật khẩu" required>
+                </div>
+                <div class="forgot-password text-end">
+                    <a href="#">Quên mật khẩu?</a>
+                </div>
+                <button class="btn-login-sub">Đăng nhập</button>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <span>Chưa có tài khoản? </span>
+            <a class="text-primary" type="button" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Đăng ký</a>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Đăng ký thành viên</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="#" class="form-group">
+                <div class="login-flatform d-flex justify-content-center">
+                    <a href="https://www.google.com" type="button"">
+                        <img src="./assets/images/google.png" class="img-fluid" alt="">
+                        <span class="px-2">với tài khoản google</span>
+                    </a>
+                    <a href="https://www.facebook.com" type="button"">
+                        <img src="./assets/images/Facebook_Logo_(2019).png.webp" class="img-fluid" alt="">
+                        <span class="px-2">với tài khoản facebook</span>
+                    </a>
+                </div>
+                <p class="text-center text-dark border-top mt-2 pt-2">hoặc đăng ký bằng email</p>
+                <div class="inp-email d-flex flex-column">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Tên đăng nhập hoặc email" required>
+                </div>
+                <div class="inp-password d-flex flex-column">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" name="password" id="password" placeholder="Mật khẩu" required>
+                </div>
+                <div class="re-password d-flex flex-column">
+                    <label for="password">Nhập lại mật khẩu</label>
+                    <input type="password" name="password" id="password" placeholder="Nhập lại mật khẩu" required>
+                </div>
+                <button class="btn-login-sub">Đăng ký</button>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <span>Đã có tài khoản?</span>
+            <a class="text-primary" type="button" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Đăng nhập</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+  </body>
+
+    <!-- Link js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</html>
