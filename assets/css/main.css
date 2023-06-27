@@ -558,7 +558,8 @@ a {
   text-decoration: none;
 }
 
-.page-incentives {
+.page-incentives,
+.page-experience {
   display: none;
 }
 
@@ -566,15 +567,18 @@ a {
   display: block;
 }
 
-.page-incentives .content {
+.page-incentives .content,
+.page-experience .content {
   padding: 10px;
 }
 
-.page-incentives .content img {
+.page-incentives .content img,
+.page-experience .content img {
   border-radius: 10px;
 }
 
-.page-incentives .content h4 {
+.page-incentives .content h4,
+.page-experience .content h4 {
   padding: 10px 0;
 }
 
@@ -606,13 +610,15 @@ a {
   background-color: var(--section-bg-color);
 }
 
-.page-incentives .content ul {
+.page-incentives .content ul,
+.page-experience .content ul {
   color: var(--custom-btn-bg-color);
   font-size: var(--p-font-size);
   padding: 0;
 }
 
-.page-incentives .content li {
+.page-incentives .content li,
+.page-experience .content li {
   color: var(--dark-color);
   font-size: 18px;
   margin-left: 15px;

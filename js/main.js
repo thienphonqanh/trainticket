@@ -1,6 +1,8 @@
 const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
+
+// Js navbar
 var navbarBtnOpen = $('.navbar-toggler')
 var navbarCollapse = $('.navbar-collapse')
 var navbarBtnClose = $('.btn-close')
@@ -19,7 +21,7 @@ navbarBtnClose.onclick = function() {
     this.classList.add('d-none')
 }
 
-
+// Load more cho #ưu đãi, #kinh nghiệm
 var btnIncentives = $('.btn-incentives')
 var btnExperience = $('.btn-experience')
 var incentives = $$('.incentives-block .incentives')
@@ -61,6 +63,7 @@ btnExperience.onclick = function() {
 } 
 
 
+// Accordion cho faq
 var faqs = $$('.content-right .faq')
 
 faqs.forEach(faq => {
@@ -75,7 +78,7 @@ faqs.forEach(faq => {
 })
 
 
-
+// Đổi background đại diện khi responsive 
 var homeBg = $('.section-home img') // Home background
 
 function loadMore(mediaRes) {
@@ -93,19 +96,25 @@ mediaRes.addListener(loadMore)
 
 
 
-
+// Ẩn hiện nội dung cho cái modal
 var contentIncentives = $$('.page-incentives')
+var contentExperience = $$('.page-experience')
 var btnModalClose = $('.btn-close-modal')
-
-
-console.log(btnModalClose)
-
 
 incentives.forEach((item, index) => {
     item.onclick = function() {
         contentIncentives[index].classList.add('open')
         btnModalClose.onclick = function() {
             contentIncentives[index].classList.remove('open')
+        }
+    }
+})
+
+experience.forEach((item, index) => {
+    item.onclick = function() {
+        contentExperience[index].classList.add('open')
+        btnModalClose.onclick = function() {
+            contentExperience[index].classList.remove('open')
         }
     }
 })
